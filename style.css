@@ -12,6 +12,10 @@
     background-size: cover;
     color: antiquewhite;
 }
+.section2{
+   height: 415px;
+
+}
 .design1{
     background-image: url('images/web-designer.jpj.jpg');
     background-position: center;
@@ -78,6 +82,34 @@
     margin: 5px;
     color: antiquewhite;
 }
+.footer{
+   background-color: black;
+   height: 150px;
+   color: white;
+}
+.para{
+   border-right: 2px solid white;
+   height: 140px;
+   font-size: 50px;
+}
+.footer-item{
+   width: 32%;
+   float: left;
+   margin-left: 0x;
+   background-color: black;
+}
+a{
+   text-decoration: none;
+   display: block;
+   color: blueviolet;
+   margin-top: 6px;
+}
+.copy-right{
+   width: 100%;
+   background-color: rgb(0, 0, 92);
+   color: antiquewhite;
+   text-align: center;
+}
 
 /*Reponsive...*/
 @media screen and (max-width:1344px){
@@ -105,6 +137,7 @@
         width: 32.3%;
         height: 200px;
      }
+
 
 }
 @media screen and (max-width:967px){
@@ -159,7 +192,51 @@
         width: 31.8%;
         height: 200px;
      }
+     .footer-item{
+      width:30%;
+     }
+     .para{
+      font-size: 35px;
+     }
      
+}
+@media screen and (max-width:711px) {
+   .para{
+      font-size: 20px;
+   }
+}
+@media screen and (max-width:625px){
+   
+   .section2{
+          height: 625px;
+   }
+   .design1{
+      width: 48.4%;
+      height: 200px;
+   } 
+   .design2{
+       width: 48.4%;
+       height: 200px;
+    }
+    .design3{
+       width: 48.4%;
+       height: 200px;
+    }
+    .design4{
+       width: 48.4%;
+       height: 200px;
+    }
+    .design5{
+       width: 48.4%;
+       height: 200px;
+    }
+    .design6{
+       width: 48.4%;
+       height: 200px;
+    }
+   .footer-item{
+      width: 28%;
+   }
 }
 @media screen and (max-width:430px){
     .design1{
@@ -187,6 +264,46 @@
         height: 200px;
      }
      
+}
+@media screen and (max-width:1168px) {
+   .para{
+      font-size: 40px;
+     }
+}
+@media  screen and (max-width:350px) {
+.section2{
+      height: 1255px;
+}
+.design1{
+  width: 99%;
+  height: 200px;
+} 
+.design2{
+   width: 99%;
+   height: 200px;
+}
+.design3{
+   width: 99%;
+   height: 200px;
+}
+.design4{
+   width: 99%;
+   height: 200px;
+}
+.design5{
+   width: 99%;
+   height: 200px;
+}
+.design6{
+   width: 99%;
+   height: 200px;
+}
+.footer-item{
+  width: 100%;
+}
+.footer{
+   text-align: center;
+}
 }
 
 
